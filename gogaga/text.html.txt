@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgAROySRvtszFi_TJrLn379B8n9IGdMxSSplpbOyPFi5UdRLrY-iO-qYHK1DQREULv7iE&usqp=CAU"
+            class="food-munch-logo"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" id="navItem1" href="#">
+              Packages
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link" href="#" id="navItem2">Tours</a>
+            <a class="nav-link" href="#" id="navItem3">Help</a>
+            <div class="nav">
+                <a class="nav-link" href="#" id="navItem4">Membership</a><i class="fas fa-gem icon"></i>
+            </div>
+            <div class="nav">
+                <a class="nav-link" href="#" id="navItem5">Gift card</a><i class="fas fa-gift-card icon"></i>
+            </div>
+            <div class="top-one nav">
+                <i class="fa-solid fa-bars user"></i><i class="fa-solid fa-user user"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="banner-section-bg-container ">
+      <div class="mt-5">
+        <h1 class="banner-heading mb-3">Discover Your Next Adventure</h1>
+        <p class="banner-caption mb-4">Unlock tour path of adventure, start your journey of discovery - where every desination awaits your exploration</p>
+       <div class="bg-color-white pl-5 pr-5">
+           <div class="two-items">
+               <div class="package">
+                   <p class="package-text m-1">Packages</p>
+               </div>
+               <p class="tours">Tours</p>
+           </div>
+           <div class="d-flex flex-row">
+               <div class="middle-one mt-5">
+               <div class="d-flex flex-column middle-border">
+                   <p class="destination">Destination</p>
+                   <p class="enter-the-city">Enter the city</p>
+               </div>
+           </div>
+           
+           <div class="middle-one2 mt-5 ml-3">
+               <div class="d-flex flex-row middle-border">
+                   <div class="d-flex flex-column">
+                        <p class="destination">check-in</p>
+                    <div class="d-flex flex-row">
+                       <p class="enter-the-city">08/ 28/ 2024</p>
+                       <i class="fa-regular fa-calendar ml-3"></i>
+                    </div>
+                   </div>
+                   
+                   <div class="d-flex flex-column ml-4 mt-3">
+                       <i class="fa-solid fa-moon ml-4 mb-1"></i>
+                       <p class="enter-the-city">1 Night</p>
+                   </div>
+                   
+                   <div class="d-flex flex-column">
+                        <p class="destination d-flex flex-row justify-content-end">check-out</p>
+                    <div class="d-flex flex-row ml-4">
+                       <p class="enter-the-city ">mm/ dd/ yyyy</p><i class="fa-regular fa-calendar ml-3"></i>
+                    </div>
+                   </div>
+               </div>
+           </div>
+           
+           <div class="middle-one mt-5 ml-3">
+               <div class="d-flex flex-column middle-border">
+                   <div class="d-flex flex-row">
+                       <div>
+                           <p class="destination">Guests and Rooms</p>
+                       <p class="enter-the-city">2 adults, 0 children, 1 room</p>
+                       </div>
+                       <i class="fa-solid fa-caret-down mt-3 ml-3"></i>
+                   </div>
+               </div>
+           </div>
+           <div class="bg-color-pure-black ml-3">
+               <i class="fa-solid fa-magnifying-glass glass"></i>
+           </div>
+           </div>
+           
+           <div class="d-flex flex-row mt-3">
+               <p class="rating">Star Rating</p>
+               <div class="bg-color-black ml-2">
+                   <p class="star">3<i class="fa-regular fa-star"></i></p>
+               </div>
+               <div class="bg-color-black ml-2">
+                   <p class="star">4<i class="fa-regular fa-star"></i></p>
+               </div>
+               <div class="bg-color-last ml-2">
+                   <p class="star2">5<i class="fa-regular fa-star"></i></p>
+               </div>
+           </div>
+           
+       </div>
+      </div>
+    </div>
+  </body>
+</html>
